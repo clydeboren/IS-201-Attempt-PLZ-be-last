@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: tan;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: bisque;
+}
+.header {
+    background-color: bisque;
+    padding: 20px;
+    text-align: center;
+
+}
+.navigation {
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: bisque;
+}
+.navigation a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+.main-content {
+    float: left;
+    width: 70%;
+    padding: 20px;
+}
+.sidebar {
+    float: right;
+    width: 25%;
+    padding: 20px;
+    background-color: bisque;
+}
+.footer {
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background-color: bisque;
+}
+h1, h2, h3 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ol {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+ol li {
+    margin-bottom: 15px;
+}
+
+/* This will keep the nested content (like ULs inside OLs) at a normal size and weight */
+ol ul, ol p {
+    font-size: 0.9em;
+    font-weight: normal;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+ul li {
+    margin-bottom: 10px; /* Adds spacing between list items */
+}
+
